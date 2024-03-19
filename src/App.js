@@ -22,7 +22,7 @@ const choice = {
     name:"Paper",
     img:"https://previews.123rf.com/images/taddeus/taddeus1208/taddeus120800135/14813510-%EC%98%A4%EB%9E%98%EB%90%9C-%EC%A2%85%EC%9D%B4.jpg"
   },
-}
+};
 function App() {
 
   const [userSelect, setUserSelect] = useState(null)

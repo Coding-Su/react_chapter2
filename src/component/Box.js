@@ -8,6 +8,7 @@ const Box = (props) => {
       <img 
         className= "item-img"
         src="{props.item && props.item.img}"
+        alt = ""
       />
       <h2>Win</h2>
     </div>
