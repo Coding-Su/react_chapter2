@@ -5,9 +5,35 @@
 
 .item-img {
   width: 400px;
+  height: 300px;
 }
 
 .main {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.win {
+  border: 5px solid #8dba7f;
+  color: #8dba7f;
+}
+.tie {
+  border: 5px solid #5796d9;
+  color: #5796d9;
+}
+.lose {
+  border: 5px solid #cc5e70;
+  color: #cc5e70;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
